@@ -32,6 +32,21 @@ const icons = {
 export default {
   items: [
     {
+      id: 'quickstart',
+      title: 'Quick start',
+      type: 'group',
+      icon: icons['ContactSupportOutlinedIcon'],
+      children: [
+        {
+          id: 'quickstart',
+          title: 'Quick Start',
+          type: 'item',
+          icon: icons['DatasetIcon'],
+          url: '/quick-start'
+        }
+      ]
+    },
+    {
       id: 'navigation',
       title: 'Materially',
       caption: 'Dashboard',
@@ -148,7 +163,6 @@ export default {
           id: 'documentation',
           title: 'Documentation',
           type: 'item',
-          url: '/',
           icon: icons['HelpOutlineOutlinedIcon'],
           chip: {
             label: 'Help?',

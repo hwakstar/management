@@ -83,5 +83,6 @@
     "prettier": "^2.7.1",
     "react-error-overlay": "^6.0.9",
     "sass": "^1.58.0"
-  }
+  },
+  "homepage": "https://hwak.github.io"
 }
